@@ -1,0 +1,45 @@
+Q2)
+Ans-
+-----HTML CODE-----
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Test</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h2>RISHU BOOK</h2>
+                <div>
+                    <h2>Menu</h2>
+                    <ul>
+                        <li><a href="#" target="_blank">Home</a></li>
+                        <li><a href="#" class="active" target="_self">About</a></li>
+                        <li><a href="#" target="_blank">Services</a></li>
+                        <li><a href="#" target="_blank">Contact</a></li>
+                    </ul>
+                </div>
+                <p>FEELINGS OF THE DAY</p>
+                <p>
+                    One of the very hardest truth of life don't get attach to someone it hurt more than any injury or any accident when situation is not in your control The Best solution is to stay silent!!! 
+                </p>
+                <p>Rember The Line It's hurt more..</p>
+            </nav>
+        </header>
+    </body>
+</html>
+
+----CSS CODE----
+ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+ul>li{
+    display: inline;
+}
+li+li{
+    margin:10px;
+}
